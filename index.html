@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cordel</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+        :root{
+            --fonte01: "Sriracha", "cursive";
+            --fonte02: "Passion One", sans-serif;
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: grey;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        header{
+            height: 140px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            padding-top: 40px;
+            
+        }
+        header > h1{
+            font-size: 3em;
+            font-family: var(--fonte02);
+        }
+        header > p{
+            font-size: 1em; 
+            font-family: 'Times New Roman', Times, serif
+        }
+        section{
+            height: 100%;
+            background-color: white;
+            margin: auto;
+            padding: 70px 30px;
+            font-family: var(--fonte01);
+            font-size: 1.6em;
+        }
+        div.caixa{
+            height: 650px;
+            background-color: grey;
+            margin: 0px -30px;
+        }
+        div > p {
+            padding: 30px;
+        }
+        div#foto1{
+            background-image: url(background001.png);
+            background-position: right top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            background-attachment: fixed;
+        }
+        div#foto2{
+            background-image: url(imagens/background002.jpg);
+            background-position: right top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            background-attachment: fixed;
+        }
+        div.box{
+            background-color: rgba(0, 0, 0, 0.37);
+            width: 350px;
+            height: 400px;
+            color: white;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Cordel Moderno
+        </h1>
+        <p>
+            Por <a href="https://www.recantodasletras.com.br/poesias/3186743">Milton Duarte</a>
+        </p>
+    </header>
+    <main>
+        <section>
+            <p>
+                Estou ficando cansado <br>
+                Da tal tecnologia <br>
+                Só se fala por e-mail <br>
+                Mensagem curta e fria <br>
+                Twitter e Facebook <br>
+                Antes que eu caduque <br>
+                Vou dizer tudo em poesia.
+            </p>
+        </section>
+            <section>
+                <div class="caixa" id="foto1">
+                    <div class="box">
+                        <p>
+                            Não é mais como era antes <br>
+                            É tudo abreviado <br>
+                            "Você" só tem duas letras <br>
+                            O "O" e o "E" foi riscado <br>
+                            Para declarar o amor <br>
+                            Basta botar uma flor <br>
+                            E um coração desenhado. <br>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        <section>
+            <p>
+                Arroba agora não pesa <br>
+                É parte de um endereço <br>
+                Ponto final nem se usa <br>
+                Ou vai até no começo <br>
+                Agora é .com <br>
+                Se o saite é muito bom <br>
+                Ele vale um alto preço. <br>
+            </p>
+        </section>
+        <section>
+            <p>
+                Pra piorar a liguagem <br>
+                O emoticom é um risco <br>
+                Tem símbolo para tudo <br>
+                Ponto e vírgula e um asterisco <br>
+                Um beijo significa <br>
+                Pra entender como fica <br>
+                Decifre esse rabisco. <br>
+            </p>
+        </section>
+            <section>
+                <div class="caixa" id="foto2">
+                    <div class="box">
+                        <p>
+                            Tenho saudade das cartas
+                            Escritas com a própria mão
+                            Mandava no mês de Junho
+                            Só chegava no Verão
+                            Mas matava a saudade
+                            Era texto de verdade
+                            Nas linhas do coração.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        <section>
+            <p>
+                Agora, escrevo e envio <br>
+                Chegando na mesma hora <br>
+                Mas quando vou prosear <br>
+                A pessoa foi embora <br>
+                Abriu outro aplicativo <br>
+                O mundo ficou cativo <br>
+                Da tecnologia do agora. <br>
+            </p>
+        </section>
+        <section>
+            <p>
+                Felizmente, pra orar <br>
+                Não precisa de internet <br>
+                Deus escuta todo mundo <br>
+                Se quiser, faça esse teste <br>
+                Dois pontos são dois joelhos <br>
+                Seus lábios são aparelhos <br>
+                Deixe que Deus interprete. <br>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <p>Site criado pelo <a href="https://github.com/gustavoguanabara">Gustavo Guanabara</a> para o <a href="https://www.youtube.com/@cursoemvideo">CursoemVideo</a></p>
+        </p>
+    </footer>
+</body>
+</html>

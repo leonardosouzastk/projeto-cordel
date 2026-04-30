@@ -27,7 +27,7 @@
             background-color: black;
             color: white;
             text-align: center;
-            line-height: 30px;  
+            line-height: 30px; 
             padding-top: 25px;
             padding-bottom: 25px;
             
@@ -47,10 +47,11 @@
             background-color: white;
             padding: 10vh 0px;
             font-family: var(--fonte01);
-            font-size: 1.6em;
+            font-size: 1.8em;
         }
         section p{
             padding: 30px;
+            line-height: 50px;
         }
         section.caixa{
             height: 570px;
@@ -81,9 +82,8 @@
             background-attachment: fixed;
         }
         div.box{
+            display: inline-block;
             background-color: rgba(0, 0, 0, 0.486);
-            max-width: 370px;
-            
             color: white;
         }
         footer{

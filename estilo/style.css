@@ -27,33 +27,40 @@
             background-color: black;
             color: white;
             text-align: center;
-            line-height: 30px;
-            padding-top: 40px;
+            line-height: 30px;  
+            padding-top: 25px;
+            padding-bottom: 25px;
             
         }
         header > h1{
+            padding-top: 50px;  
             font-size: 3em;
+            font-variant: small-caps;
             font-family: var(--fonte02);
         }
-        header > p{
-            font-family: 'Times New Roman', Times, serif
+        header > p{  
+            font-family: 'Times New Roman', Times, serif;
+            
         }
         section{
             height: 100%;
             background-color: white;
-            padding: 70px 30px;
+            padding: 10vh 0px;
             font-family: var(--fonte01);
             font-size: 1.6em;
         }
-        div.caixa{
-            height: 650px;
+        section p{
+            padding: 30px;
+        }
+        section.caixa{
+            height: 570px;
             background-color: grey;
-            margin: 0px -30px;
+            margin: 0px;   
         }
         div > p {
             padding: 30px;
         }
-        div#foto1{
+        section#foto1{
             background-image: url(../background001.png);
             background-position: right top;
             background-repeat: no-repeat;
@@ -63,7 +70,7 @@
             align-items: center;
             background-attachment: fixed;
         }
-        div#foto2{
+        section#foto2{
             background-image: url(../imagens/background002.jpg);
             background-position: right top;
             background-repeat: no-repeat;
@@ -75,8 +82,8 @@
         }
         div.box{
             background-color: rgba(0, 0, 0, 0.486);
-            width: 370px;
-            height: 400px;
+            max-width: 370px;
+            
             color: white;
         }
         footer{
@@ -84,5 +91,5 @@
             color: white;
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
-            padding: 5px;
+            padding: 8px;
         }

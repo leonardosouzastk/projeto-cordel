@@ -51,37 +51,37 @@
         }
         section p{
             padding: 30px;
-            line-height: 50px;
+            line-height: 60px;
+            padding-bottom: 20px;
         }
         section.caixa{
             height: 570px;
             background-color: grey;
             margin: 0px;   
-        }
+            box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
+            background-position: right center;
+            background-size: cover;
+            background-attachment: fixed;
+            text-shadow: 1.5px 1px 0px rgba(0, 0, 0, 0.63)
         
+        }
         section#foto1{
-            background-image: url(../background001.png);
-            background-position: right top;
-            background-repeat: no-repeat;
+            background-image: url(../imagens/background001.jpg);
+            background-position: right center;
             background-size: cover;
             display: flex;
             justify-content: left;
             align-items: center;
-            background-attachment: fixed;
         }
         section#foto2{
             background-image: url(../imagens/background002.jpg);
-            background-position: right top;
-            background-repeat: no-repeat;
-            background-size: cover;
             display: flex;
             justify-content: left;
             align-items: center;
-            background-attachment: fixed;
         }
         div.box{
             display: inline-block;
-            background-color: rgba(0, 0, 0, 0.486);
+            background-color: rgba(0, 0, 0, 0.5);
             color: white;
         }
         div > p {
